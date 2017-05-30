@@ -1,0 +1,15 @@
+{
+	"head_include": {
+		"fonts": [],
+		"css": ["reset", "styling"],
+		"js": {
+			"libs": ["d3"],
+			"main": ["core", "debug", "utility", "index"],
+			"modules": [
+				"select_handler",
+				"ready"
+				]
+		}
+	},
+	"data_location": "resources/hotels_emissions_data.csv"
+}
